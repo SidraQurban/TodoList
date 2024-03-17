@@ -29,7 +29,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.tasksWrapper}>
-        <Text style={styles.title}>My Task</Text>
+        <Text style={styles.title}>My Todo</Text>
         <View style={styles.items}>
           {taskItem.map((item, index) => {
             return (
