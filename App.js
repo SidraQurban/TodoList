@@ -29,7 +29,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.tasksWrapper}>
-        <Text style={styles.title}>My Todo</Text>
+        <Text style={styles.title}>My ToDo List</Text>
         <View style={styles.items}>
           {taskItem.map((item, index) => {
             return (
@@ -47,7 +47,7 @@ export default function App() {
       >
         <TextInput
           style={styles.input}
-          placeholder={"Write a task..."}
+          placeholder={"Write your task..."}
           value={task}
           onChangeText={(text) => setTask(text)}
         />
