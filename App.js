@@ -47,7 +47,7 @@ export default function App() {
       >
         <TextInput
           style={styles.input}
-          placeholder={"Write something..."}
+          placeholder={"Write a task..."}
           value={task}
           onChangeText={(text) => setTask(text)}
         />
@@ -106,5 +106,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderWidth: 1,
   },
-  add: {},
+  add: {
+    fontSize: 40,
+    color: "#e5e5e5",
+  },
 });
