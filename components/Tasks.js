@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   icon: {
     width: 24,
     height: 24,
-    backgroundColor: "#55BCF6",
+    backgroundColor: "#ffafcc",
     opacity: 0.4,
     marginRight: 15,
     borderRadius: 5,
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   circular: {
     width: 13,
     height: 13,
-    borderColor: "#55BCF6",
+    borderColor: "#ffafcc",
     borderRadius: 5,
     borderWidth: 2,
   },
