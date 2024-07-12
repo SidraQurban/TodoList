@@ -42,8 +42,8 @@ const styles = StyleSheet.create({
     maxWidth: "80%",
   },
   circular: {
-    width: 10,
-    height: 10,
+    width: 13,
+    height: 13,
     borderColor: "#55BCF6",
     borderRadius: 5,
     borderWidth: 2,
